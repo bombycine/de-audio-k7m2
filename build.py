@@ -13,7 +13,7 @@ Episode YAML:
 Only episodes without an existing docs/audio/<slug>.mp3 are synthesized. Monthly character use is
 tracked in usage.json; the build refuses to exceed MONTHLY_CHAR_CAP (free tier is 1M).
 """
-import io, json, os, subprocess, sys, tempfile, wave
+import hashlib, io, json, os, subprocess, sys, tempfile, wave
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -131,9 +131,11 @@ def main():
     for path in sorted(EP_DIR.glob("*.yaml")):
         slug = path.stem
         mp3 = AUDIO / f"{slug}.mp3"
-        ep = yaml.safe_load(path.read_text())
-        if mp3.exists() and slug in meta:
-            continue
+        text = path.read_text()
+        ep = yaml.safe_load(text)
+        digest = hashlib.sha1(text.encode()).hexdigest()[:12]
+        if mp3.exists() and meta.get(slug, {}).get("sha") in (digest, None):
+            continue  # unchanged (sha None = built before hashing existed)
         est = sum(len(str(v)) for v in _texts(ep["segments"]))
         if usage.get(month, 0) + est > MONTHLY_CHAR_CAP:
             print(f"skip {slug}: would exceed monthly cap ({usage.get(month, 0)} + {est})")
@@ -143,7 +145,7 @@ def main():
         to_mp3(pcm, mp3)
         usage[month] = usage.get(month, 0) + counter[0]
         meta[slug] = {"title": ep["title"], "description": ep.get("description", ""),
-                      "date": str(ep["date"]), "seconds": round(secs(pcm)), "bytes": mp3.stat().st_size}
+                      "date": str(ep["date"]), "seconds": round(secs(pcm)), "bytes": mp3.stat().st_size, "sha": digest}
         print(f"built {slug}: {meta[slug]['seconds']}s, {counter[0]} chars")
         USAGE.write_text(json.dumps(usage, indent=2))
 

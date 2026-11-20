@@ -26,5 +26,13 @@
       <enclosure url="https://bombycine.github.io/de-audio-k7m2/audio/2026-11-20-wk00-dialogue-munich.mp3" length="869996" type="audio/mpeg"/>
       <itunes:duration>2:25</itunes:duration>
     </item>
+    <item>
+      <title>Daily · Fri Nov 20: 18 reviews, 1-day streak</title>
+      <description>Progress check and a drill on 8 words from your Anki reviews on 2026-11-19.</description>
+      <guid isPermaLink="false">2026-11-20-daily</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://bombycine.github.io/de-audio-k7m2/audio/2026-11-20-daily.mp3" length="1673084" type="audio/mpeg"/>
+      <itunes:duration>4:39</itunes:duration>
+    </item>
   </channel>
 </rss>

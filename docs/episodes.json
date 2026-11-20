@@ -12,5 +12,13 @@
     "date": "2026-11-20",
     "seconds": 258,
     "bytes": 1545932
+  },
+  "2026-11-20-daily": {
+    "title": "Daily · Fri Nov 20: 18 reviews, 1-day streak",
+    "description": "Progress check and a drill on 8 words from your Anki reviews on 2026-11-19.",
+    "date": "2026-11-20",
+    "seconds": 279,
+    "bytes": 1673084,
+    "sha": "990e04329697"
   }
 }

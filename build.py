@@ -149,6 +149,9 @@ def main():
 
     # drop metadata for episodes whose yaml was removed
     meta = {k: v for k, v in meta.items() if (EP_DIR / f"{k}.yaml").exists()}
+    for mp3 in AUDIO.glob("*.mp3"):  # audio for pruned episodes
+        if not (EP_DIR / f"{mp3.stem}.yaml").exists():
+            mp3.unlink(); print(f"removed {mp3.name}")
     (DOCS / "episodes.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
     write_feed(meta)
     print(f"usage {month}: {usage.get(month, 0)} chars")

@@ -1,0 +1,70 @@
+title: 'Daily · Fri Nov 20: 18 reviews, 1-day streak'
+description: Progress check and a drill on 8 words from your Anki reviews on 2026-11-19.
+date: '2026-11-20'
+segments:
+- en: Guten Morgen, Josh. Here's your progress check. Yesterday you did 18 reviews and got 39 percent right. Your streak is 1 day. You met 8 new words. You're working on 8 words. Today's drill starts with the ones that tripped you up, like die Rechnung. 215 days until Munich. Los geht's.
+- pause: 1
+- en: Words first. Hear the English, say the German out loud, with the article.
+- drill:
+    en: the bill or check
+    de: die Rechnung
+- drill:
+    en: ticket, train or bus
+    de: die Fahrkarte
+- drill:
+    en: hello, Bavaria & Austria
+    de: Grüß Gott
+- drill:
+    en: castle
+    de: das Schloss
+- drill:
+    en: train station
+    de: der Bahnhof
+- drill:
+    en: excuse me or sorry
+    de: Entschuldigung
+- drill:
+    en: beer
+    de: das Bier
+- drill:
+    en: mountain
+    de: der Berg
+- en: Now full sentences.
+- drill:
+    en: The check, please.
+    de: Die Rechnung, bitte.
+    think: 6
+- drill:
+    en: One ticket to Füssen, please.
+    de: Eine Fahrkarte nach Füssen, bitte.
+    think: 6
+- drill:
+    en: Hello! A table for nine, please.
+    de: Grüß Gott! Einen Tisch für neun Personen, bitte.
+    think: 6
+- drill:
+    en: The castle is beautiful.
+    de: Das Schloss ist wunderschön.
+    think: 6
+- en: One more pass on yesterday's misses, faster.
+- drill:
+    en: the bill or check
+    de: die Rechnung
+    think: 3
+- drill:
+    en: ticket, train or bus
+    de: die Fahrkarte
+    think: 3
+- drill:
+    en: hello, Bavaria & Austria
+    de: Grüß Gott
+    think: 3
+- drill:
+    en: castle
+    de: das Schloss
+    think: 3
+- drill:
+    en: train station
+    de: der Bahnhof
+    think: 3
+- en: Fertig. Do your Anki reviews today, and there'll be a new episode tomorrow. Tschüss.

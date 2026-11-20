@@ -1,0 +1,26 @@
+title: "Wk00 · Drill: 8 trip words"
+description: "Hear the English, say the German out loud before you hear it. Words from the sample deck."
+date: 2026-11-20
+segments:
+  - en: "Willkommen. This is your German drill. You'll hear an English word. Say the German out loud before you hear it. Then repeat after the speaker. Always say the article: der, die, or das."
+  - pause: 1
+  - drill: {en: "the train station", de: "der Bahnhof"}
+  - drill: {en: "the ticket", de: "die Fahrkarte"}
+  - drill: {en: "the beer", de: "das Bier"}
+  - drill: {en: "the bill, or check", de: "die Rechnung"}
+  - drill: {en: "the castle", de: "das Schloss"}
+  - drill: {en: "the mountain", de: "der Berg"}
+  - drill: {en: "Hello, the way they say it in Bavaria and Austria", de: "Grüß Gott"}
+  - drill: {en: "Excuse me", de: "Entschuldigung"}
+  - en: "Now short sentences. Same idea: say it first."
+  - drill: {en: "Where is the train station?", de: "Wo ist der Bahnhof?", think: 5}
+  - drill: {en: "One ticket to Füssen, please.", de: "Eine Fahrkarte nach Füssen, bitte.", think: 6}
+  - drill: {en: "Two beers, please.", de: "Zwei Bier, bitte.", think: 5}
+  - drill: {en: "The check, please.", de: "Die Rechnung, bitte.", think: 5}
+  - drill: {en: "Excuse me, do you speak English?", de: "Entschuldigung, sprechen Sie Englisch?", think: 6}
+  - en: "One more round, a little faster."
+  - drill: {en: "the check", de: "die Rechnung", think: 3}
+  - drill: {en: "the ticket", de: "die Fahrkarte", think: 3}
+  - drill: {en: "the castle", de: "das Schloss", think: 3}
+  - drill: {en: "Hello, in Munich", de: "Grüß Gott", think: 3}
+  - en: "Sehr gut. That's the drill. Bis morgen."

@@ -1,0 +1,46 @@
+title: "Wk00 · Dialogue: Munich station and beer garden"
+description: "Two tiny scenes. Slow, then shadow (repeat in the gaps), then normal speed."
+date: 2026-11-20
+segments:
+  - en: "Two short scenes from your first day in Munich. First, just listen. Slowly."
+  - en: "Scene one. At the station. You need a ticket to Füssen."
+  - dialogue:
+      - A: "Grüß Gott!"
+      - B: "Grüß Gott. Eine Fahrkarte nach Füssen, bitte."
+      - A: "Hin und zurück?"
+      - B: "Ja, hin und zurück, bitte."
+      - A: "Das macht achtundzwanzig Euro."
+      - B: "Danke!"
+    slow: true
+  - en: "Hin und zurück means there and back: a round trip. Achtundzwanzig is twenty-eight."
+  - en: "Scene two. The beer garden."
+  - dialogue:
+      - A: "Grüß Gott! Was möchten Sie?"
+      - B: "Zwei Bier, bitte. Und eine Brezel."
+      - A: "Gern."
+      - B: "Entschuldigung, die Rechnung, bitte."
+      - A: "Zusammen oder getrennt?"
+      - B: "Zusammen, bitte."
+    slow: true
+  - en: "Was möchten Sie means what would you like. Zusammen oder getrennt: together or separate. In Germany they'll often ask that when you pay."
+  - en: "Now shadow. After each line, repeat it in the gap. Copy the sound, not just the words."
+  - dialogue:
+      - A: "Grüß Gott!"
+      - B: "Eine Fahrkarte nach Füssen, bitte."
+      - A: "Hin und zurück?"
+      - B: "Ja, hin und zurück, bitte."
+      - A: "Was möchten Sie?"
+      - B: "Zwei Bier, bitte."
+      - B: "Die Rechnung, bitte."
+      - A: "Zusammen oder getrennt?"
+      - B: "Zusammen, bitte."
+    shadow: true
+  - en: "Last time, at normal speed. Try to follow without the English."
+  - dialogue:
+      - A: "Grüß Gott! Was möchten Sie?"
+      - B: "Zwei Bier, bitte. Und eine Brezel."
+      - A: "Gern."
+      - B: "Entschuldigung, die Rechnung, bitte."
+      - A: "Zusammen oder getrennt?"
+      - B: "Zusammen, bitte."
+  - en: "Super. Bis bald."
